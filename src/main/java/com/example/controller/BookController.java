@@ -13,7 +13,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BookController {
 
-//  @Autowired
   private final BookMapper bookMapper;
 
   @RequestMapping("/")
