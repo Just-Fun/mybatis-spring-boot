@@ -10,4 +10,13 @@ import org.springframework.context.annotation.Import;
 @Configuration
 @Import(DemoApplication.class)
 public class H2TestConfiguration {
+
+/*
+    @Bean
+    public DataSource dataSource() {
+        return new EmbeddedDatabaseBuilder()
+                .setType(EmbeddedDatabaseType.H2)
+                .build();
+    }
+*/
 }
